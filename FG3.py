@@ -8,7 +8,7 @@ import time
 #prompt = "Create simple Questions with simple Answers flashcards whilst including everything from the context, Don't repeat similar Questions, Don't use Questions from the context, Don't include any other text and make sure it's like this Question  Answer in tsv format: "
 #prompt = "Create definition front with simple definition at the back flashcards whilst including everything from the context, Don't repeat similar Questions, Don't use Questions from the context, Don't include any other text and make sure it's like this Question       Answer in tsv format: "
 prompt = "Create 10 Questions using command verbs such as define, compare, explain, identify, assess, justify, discuss, outline, and summarise, allocate 1,2,3,4,8,12 markers depending on the question, Don't repeat similar Questions, Don't use Questions from the context, Don't include any other text and make sure it's like this Question      Marks in tsv format: "
-#hi
+
 def reader(path, start_page, end_page):
     text = []
     with fitz.open(path) as pdf:
